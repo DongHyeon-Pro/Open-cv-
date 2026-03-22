@@ -2,6 +2,7 @@ from ultralytics import YOLO
 import cv2
 import os
 
+
 model = YOLO("yolov8n.pt")
 
 base_dir = os.path.dirname(__file__)
